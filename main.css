@@ -75,8 +75,8 @@ p {
 /////////////////////////*/
 
 .footer {
-    background-color: aliceblue;
-    height: 300px;
+    /* background-color: aliceblue; */
+    /* height: 300px; */
     /* border: 2px solid red; */
     max-width: 95%;
 }
@@ -86,6 +86,29 @@ p {
     color: white;
     font: normal normal normal 14px/14px Nunito;
     letter-spacing: 1.4px;
+}
+.footer-ul{
+    font: normal normal normal 14px/22px Nunito;
+    letter-spacing: 0px;
+    color: #000F14;
+}
+
+.footer-links{
+    font: normal normal normal 14px/24px Nunito;
+    letter-spacing: 0px;
+    color: #888888;
+}
+
+.footer-media-title{
+    font: normal normal normal 14px/22px Nunito;
+    letter-spacing: 1.4px;
+    color: #888888;
+}
+
+.footer-media-text{
+    font: normal normal normal 19px/29px Nunito;
+    letter-spacing: 0px;
+    color: #000F14;
 }
 
 @media screen and (max-width: 600px) {
