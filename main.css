@@ -1,110 +1,25 @@
-/*
-FOOTER / WRAPPER    *********************************************************************
-*/
-#footer {
-    position: sticky;
-    clear: both;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    background-color: var(--main-bg-color);
+p{
+    padding: 0px;
+    margin: 0px;
 }
 
-.footer-wrapper {
-    margin-right: var(--margin-hort);
-    margin-left: var(--margin-hort);
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    color: black;
+.footer{
+    background-color: aliceblue;
+    height: 300px;
+    /* border: 2px solid red; */
+    max-width: 95%;
 }
 
-/*
-DIVISOR    *********************************************************************
-*/
-.footer-divisor {
-    background-color: #a90202;
-    height: 50px;
-    margin-bottom: 20px;
-    width: 100%;
+.divisor{
+    background-color: #000F14;
     color: white;
-    font-size: 20px;
+    font: normal normal normal 14px/14px Nunito;
+    letter-spacing: 1.4px;
 }
 
-.msg-divisor-left {
-    margin-left: 3%;
-    font-weight: bolder;
-    float: left;
-    margin-top: 15px;
-}
 
-.msg-divisor-right {
-    margin-right: 3%;
-    font-weight: bolder;
-    float: right;
-    margin-top: 15px;
-}
-
-/*
-WRAPPER TOP    *********************************************************************
-*/
-.footer-wrapper-top {
-    width: 100%;
-    display: flex;
-    border-bottom: 3px solid #3f3c3d;
-    padding-bottom: 15px;
-}
-
-.footer-logo {
-    width: 200px;
-}
-
-.footer-box-lists {
-    display: flex;
-    flex: 1;
-    justify-content: flex-start;
-}
-
-.footer-list {
-    margin: 0 5%;
-}
-
-.footer-social-media {
-    float: right;
-}
-
-/*
-WRAPPER BOT    *********************************************************************
-*/
-.footer-wrapper-bot {
-    margin-top: 10px;
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    margin-bottom: 15px;
-}
-
-.footer-legal {
-    flex-direction: column;
-    height: auto;
-    justify-content: space-around;
-}
-
-.footer-list > p {
-    font-weight: bolder;
-    font-size: larger;
-    margin-bottom: 10px;
-}
-
-.footer-list > ul {
-    color: gray;
-}
-
-.linkFooter {
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.linkFooter:visited {
-    color: black;
-}
+@media screen and (max-width: 600px) {
+    .hide {
+      display: none;
+    }
+  }
