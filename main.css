@@ -1,4 +1,4 @@
-p{
+p {
     padding: 0px;
     margin: 0px;
 }
@@ -70,32 +70,29 @@ p{
     background-size: cover;
 }
 
-
-
 /*
  FOTER
 /////////////////////////*/
 
-.footer{
+.footer {
     background-color: aliceblue;
     height: 300px;
     /* border: 2px solid red; */
     max-width: 95%;
 }
 
-.divisor{
-    background-color: #000F14;
+.divisor {
+    background-color: #000f14;
     color: white;
     font: normal normal normal 14px/14px Nunito;
     letter-spacing: 1.4px;
 }
 
-
 @media screen and (max-width: 600px) {
     .hide {
-      display: none;
+        display: none;
     }
-  }
+}
 .linkFooter:visited {
     color: black;
 }
