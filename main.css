@@ -114,7 +114,7 @@ WRAPPER BOT    *****************************************************************
 */
 
 #img1 {
-    background-image: url("img/cover1.jpg");
+    background-image: url("assets/img/jpg/cover-1.jpg");
     /* Full height */
     height: 100%;
 
@@ -125,7 +125,7 @@ WRAPPER BOT    *****************************************************************
 }
 
 #img2 {
-    background-image: url("img/cover2.jpg");
+    background-image: url("assets/img/jpg/cover-2.jpg");
     /* Full height */
     height: 100%;
 
@@ -136,7 +136,7 @@ WRAPPER BOT    *****************************************************************
 }
 
 #img3 {
-    background-image: url("img/cover3.jpg"); /* Full height */
+    background-image: url("assets/img/jpg/cover-3.jpg"); /* Full height */
     height: 100%;
 
     /* Center and scale the image nicely */
@@ -146,7 +146,7 @@ WRAPPER BOT    *****************************************************************
 }
 
 #img4 {
-    background-image: url("img/cover4.jpg");
+    background-image: url("assets/img/jpg/cover-4.jpg");
     /* Full height */
     height: 100%;
 
@@ -156,7 +156,7 @@ WRAPPER BOT    *****************************************************************
     background-size: cover;
 }
 #img5 {
-    background-image: url("img/cover5.jpg");
+    background-image: url("assets/img/jpg/cover-5.jpg");
     /* Full height */
     height: 100%;
 
@@ -166,7 +166,7 @@ WRAPPER BOT    *****************************************************************
     background-size: cover;
 }
 #img6 {
-    background-image: url("img/cover6.jpg");
+    background-image: url("assets/img/jpg/cover-6.jpg");
     /* Full height */
     height: 100%;
 
