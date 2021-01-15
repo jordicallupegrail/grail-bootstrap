@@ -167,6 +167,24 @@ header {
     color: #000f14;
 }
 
+.footer-bottom-grail{
+    font: normal normal normal 22px/20px Times New Roman;
+    letter-spacing: 7.7px;
+}
+
+.footer-bottom-copyright{
+    font: normal normal normal 14px/20px Nunito;
+    letter-spacing: 1.74px;
+    color: #000F14;
+}
+
+.footer-bottom-text{
+    text-align: right;
+    font: normal normal normal 28px/38px Times New Roman;
+    letter-spacing: 2.8px;
+    color: #D9D9D9;
+}
+
 @media screen and (max-width: 600px) {
     .hide {
         display: none;
