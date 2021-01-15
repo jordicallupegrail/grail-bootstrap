@@ -1,23 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <script
+            src="https://kit.fontawesome.com/7f7a5c4796.js"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+            crossorigin="anonymous"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Nunito"
+            rel="stylesheet"
+        />
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="https://kit.fontawesome.com/7f7a5c4796.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" />
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"
+        ></script>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav
+                class="navbar navbar-expand-sm fixed-top navbar-light bg-light"
+            >
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <a class="navbar-brand mx-auto d-sm-none" href="#">
                     <div class="d-flex flex-column align-items-center">
@@ -84,47 +116,72 @@
                             class="d-block img-fluid vh-100"
                             alt="..."
                         /> -->
-                </div>
-                <div class="carousel-item">
-                    <div id="img2" class="d-block vh-100"></div>
-                    <!-- <img
+                    </div>
+                    <div class="carousel-item">
+                        <div id="img2" class="d-block vh-100"></div>
+                        <!-- <img
                             src="img/cover2.jpg"
                             class="d-block img-fluid vh-100"
                             alt="..."
                         /> -->
-                </div>
-                <div class="carousel-item">
-                    <div id="img3" class="d-block vh-100"></div>
-                    <!-- <img
+                    </div>
+                    <div class="carousel-item">
+                        <div id="img3" class="d-block vh-100"></div>
+                        <!-- <img
                             src="img/cover3.jpg"
                             class="d-block img-fluid vh-100"
                             alt="..."
                         /> -->
-                </div>
-                <div class="carousel-item">
-                    <div id="img4" class="d-block vh-100"></div>
-                    <!-- <img
+                    </div>
+                    <div class="carousel-item">
+                        <div id="img4" class="d-block vh-100"></div>
+                        <!-- <img
                             src="img/cover4.jpg"
                             class="d-block img-fluid vh-100"
                             alt="..."
                         /> -->
-                </div>
-                <div class="carousel-item">
-                    <div id="img5" class="d-block vh-100"></div>
-                    <!-- <img
+                    </div>
+                    <div class="carousel-item">
+                        <div id="img5" class="d-block vh-100"></div>
+                        <!-- <img
                             src="img/cover5.jpg"
                             class="d-block img-fluid vh-100"
                             alt="..."
                         /> -->
-                </div>
-                <div class="carousel-item">
-                    <div id="img6" class="d-block vh-100"></div>
-                    <!-- <img
+                    </div>
+                    <div class="carousel-item">
+                        <div id="img6" class="d-block vh-100"></div>
+                        <!-- <img
                             src="img/cover6.jpg"
                             class="d-block img-fluid vh-100"
                             alt="..."
                         /> -->
+                    </div>
                 </div>
+                <a
+                    class="carousel-control-prev"
+                    href="#carouselExampleFade"
+                    role="button"
+                    data-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a
+                    class="carousel-control-next"
+                    href="#carouselExampleFade"
+                    role="button"
+                    data-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </section>
         <section>
@@ -389,161 +446,212 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">.col-4</div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <div style="background-color: grey; width: 100%; min-height: 100vh"></div>
-    </section>
-    <section>
-        <div style="background-color: white; width: 100%; min-height: 100vh"></div>
-    </section>
-    <section>
-        <div style="background-color: grey; width: 100%; min-height: 100vh"></div>
-    </section>
+        </section>
+        <section>
+            <div
+                style="background-color: grey; width: 100%; min-height: 100vh"
+            ></div>
+        </section>
+        <section>
+            <div
+                style="background-color: white; width: 100%; min-height: 100vh"
+            ></div>
+        </section>
+        <section>
+            <div
+                style="background-color: grey; width: 100%; min-height: 100vh"
+            ></div>
+        </section>
 
-    <!-- Start footer -->
-    <footer class="container-fluid footer">
-        <!-- Divisor -->
-        <div class="divisor row mt-5 p-5 px-3 mb-5 d-flex justify-content-between">
-            <div>
-                <span class="mr-5 font-weight-bold">Ready to get started?</span>
-                <span class="d-none d-md-inline-block">Get in touch to discuss your cybersecurity needs</span>
-            </div>
-            <div>
-                <span class="d-none d-sm-inline-block">JOIN NOW</span>
-            </div>
-        </div>
-        <!-- End Divisor -->
-
-        <!-- Upper Container -->
-        <div class="container-fluid px-0">
-            <div class="row">
-                <!-- Links -->
-                <div class="row col-sm-8 px-0">
-                    <!-- Company -->
-                    <div class="col col-md-auto mr-5">
-                        <h6 class="font-weight-bold footer-ul">COMPANY</h6>
-                        <ul class="list-unstyled mt-3">
-                            <li class="">
-                                <a class="footer-links" href="#">About us</a>
-                            </li>
-                            <li class="">
-                                <a class="footer-links" href="#">Certification</a>
-                            </li>
-                            <li class="">
-                                <a class="footer-links" href="#">Customer Stories</a>
-                            </li>
-                            <li class="">
-                                <a class="footer-links" href="#">Partners</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- About -->
-                    <div class="col col-md-auto mr-5">
-                        <h6 class="font-weight-bold footer-ul">ABOUT</h6>
-                        <ul class="list-unstyled mt-3">
-                            <li class="">
-                                <a class="footer-links" href="#">Privacy Policy</a>
-                            </li>
-                            <li class="">
-                                <a class="footer-links" href="#">Cookie Policy</a>
-                            </li>
-                            <li class="">
-                                <a class="footer-links" href="#">Terms of Use</a>
-                            </li>
-                            <li class="">
-                                <a class="footer-links" href="#">FAQ</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Get in touch -->
-                    <div class="col col-md-auto mr-5">
-                        <h6 class="font-weight-bold footer-ul">
-                            GET IN TOUCH
-                        </h6>
-                        <ul class="list-unstyled mt-3">
-                            <li class="">
-                                <a class="footer-links" href="#">Contact us</a>
-                            </li>
-                            <li class="">
-                                <a class="footer-links" href="#">Jobs</a>
-                            </li>
-                            <li class="">
-                                <a class="footer-links" href="#">Locations</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Technical support -->
-                    <div class="col col-md-auto">
-                        <h6 class="font-weight-bold footer-ul">
-                            TECHNICAL SUPPORT
-                        </h6>
-                        <ul class="list-unstyled mt-3">
-                            <li class="">
-                                <a class="footer-links" href="#">Incident?</a>
-                            </li>
-                            <li class="">
-                                <a class="footer-links" href="#">Communities</a>
-                            </li>
-                            <li class="">
-                                <a class="footer-links" href="#">Contact Support</a>
-                            </li>
-                            <li class="">
-                                <a class="footer-links" href="#">Customer Portal</a>
-                            </li>
-                            <li class="">
-                                <a class="footer-links" href="#">Documentation Portal</a>
-                            </li>
-                            <li class="">
-                                <a class="footer-links" href="#">Report Security Issue</a>
-                            </li>
-                        </ul>
-                    </div>
+        <!-- Start footer -->
+        <footer class="container-fluid footer">
+            <!-- Divisor -->
+            <div
+                class="divisor row mt-5 py-4 px-3 mb-5 d-flex justify-content-between"
+            >
+                <div>
+                    <span class="mr-5 font-weight-bold"
+                        >Ready to get started?</span
+                    >
+                    <span class="d-none d-md-inline-block"
+                        >Get in touch to discuss your cybersecurity needs</span
+                    >
                 </div>
-                <!-- End Links -->
+                <div>
+                    <span class="d-none d-sm-inline-block">JOIN NOW</span>
+                </div>
+            </div>
+            <!-- End Divisor -->
 
-                <!-- Media -->
-                <div class="col-sm-4 px-0 ml-4">
-                    <div class="float-right">
-                        <div class="mb-4">
-                            <p class="footer-media-title mb-0">
-                                GIFT DEMO CARDS
-                            </p>
-                            <p class="footer-media-text">
-                                Give a Demo Today
-                            </p>
+            <!-- Upper Container -->
+            <div class="container-fluid px-0">
+                <div class="row">
+                    <!-- Links -->
+                    <div class="row col-sm-8 px-0">
+                        <!-- Company -->
+                        <div class="col col-md-auto mr-5">
+                            <h6 class="font-weight-bold footer-ul">COMPANY</h6>
+                            <ul class="list-unstyled mt-3">
+                                <li class="">
+                                    <a class="footer-links" href="#"
+                                        >About us</a
+                                    >
+                                </li>
+                                <li class="">
+                                    <a class="footer-links" href="#"
+                                        >Certification</a
+                                    >
+                                </li>
+                                <li class="">
+                                    <a class="footer-links" href="#"
+                                        >Customer Stories</a
+                                    >
+                                </li>
+                                <li class="">
+                                    <a class="footer-links" href="#"
+                                        >Partners</a
+                                    >
+                                </li>
+                            </ul>
                         </div>
-                        <div>
-                            <p class="footer-media-title mb-0">
-                                SOCIAL MEDIA
-                            </p>
-                            <p class="footer-media-text">
-                                Give a Demo Today
-                            </p>
+
+                        <!-- About -->
+                        <div class="col col-md-auto mr-5">
+                            <h6 class="font-weight-bold footer-ul">ABOUT</h6>
+                            <ul class="list-unstyled mt-3">
+                                <li class="">
+                                    <a class="footer-links" href="#"
+                                        >Privacy Policy</a
+                                    >
+                                </li>
+                                <li class="">
+                                    <a class="footer-links" href="#"
+                                        >Cookie Policy</a
+                                    >
+                                </li>
+                                <li class="">
+                                    <a class="footer-links" href="#"
+                                        >Terms of Use</a
+                                    >
+                                </li>
+                                <li class="">
+                                    <a class="footer-links" href="#">FAQ</a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="">
-                            <a class="mr-3" href="#"><i class="fab fa-twitter fa-lg text-dark"></i></a>
-                            <a class="mr-3" href="#"><i class="fab fa-facebook-f fa-lg text-dark"></i></a>
-                            <a href="#"><i class="fab fa-instagram fa-lg text-dark"></i></a>
+
+                        <!-- Get in touch -->
+                        <div class="col col-md-auto mr-5">
+                            <h6 class="font-weight-bold footer-ul">
+                                GET IN TOUCH
+                            </h6>
+                            <ul class="list-unstyled mt-3">
+                                <li class="">
+                                    <a class="footer-links" href="#"
+                                        >Contact us</a
+                                    >
+                                </li>
+                                <li class="">
+                                    <a class="footer-links" href="#">Jobs</a>
+                                </li>
+                                <li class="">
+                                    <a class="footer-links" href="#"
+                                        >Locations</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Technical support -->
+                        <div class="col col-md-auto">
+                            <h6 class="font-weight-bold footer-ul">
+                                TECHNICAL SUPPORT
+                            </h6>
+                            <ul class="list-unstyled mt-3">
+                                <li class="">
+                                    <a class="footer-links" href="#"
+                                        >Incident?</a
+                                    >
+                                </li>
+                                <li class="">
+                                    <a class="footer-links" href="#"
+                                        >Communities</a
+                                    >
+                                </li>
+                                <li class="">
+                                    <a class="footer-links" href="#"
+                                        >Contact Support</a
+                                    >
+                                </li>
+                                <li class="">
+                                    <a class="footer-links" href="#"
+                                        >Customer Portal</a
+                                    >
+                                </li>
+                                <li class="">
+                                    <a class="footer-links" href="#"
+                                        >Documentation Portal</a
+                                    >
+                                </li>
+                                <li class="">
+                                    <a class="footer-links" href="#"
+                                        >Report Security Issue</a
+                                    >
+                                </li>
+                            </ul>
                         </div>
                     </div>
+                    <!-- End Links -->
+
+                    <!-- Media -->
+                    <div class="col-sm-4 px-0 ml-4">
+                        <div class="float-right">
+                            <div class="mb-4">
+                                <p class="footer-media-title mb-0">
+                                    GIFT DEMO CARDS
+                                </p>
+                                <p class="footer-media-text">
+                                    Give a Demo Today
+                                </p>
+                            </div>
+                            <div>
+                                <p class="footer-media-title mb-0">
+                                    SOCIAL MEDIA
+                                </p>
+                                <p class="footer-media-text">
+                                    Give a Demo Today
+                                </p>
+                            </div>
+                            <div class="">
+                                <a class="mr-2" href="#"
+                                    ><i
+                                        class="fab fa-twitter fa-lg text-dark"
+                                    ></i
+                                ></a>
+                                <a class="mr-2" href="#"
+                                    ><i
+                                        class="fab fa-facebook fa-lg text-dark"
+                                    ></i
+                                ></a>
+                                <a href="#"
+                                    ><i
+                                        class="fab fa-instagram fa-lg text-dark"
+                                    ></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Media -->
                 </div>
-                <!-- End Media -->
             </div>
-        </div>
-        <!-- End Upper Container -->
+            <!-- End Upper Container -->
 
-        <!-- Lower Container -->
-        <div></div>
-        <!-- End Lower Container -->
-    </footer>
-    <!-- End footer -->
-</body>
-
+            <!-- Lower Container -->
+            <div></div>
+            <!-- End Lower Container -->
+        </footer>
+        <!-- End footer -->
+    </body>
 </html>
