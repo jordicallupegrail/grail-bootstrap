@@ -1,3 +1,7 @@
+body{
+    background-color: #FCFBF9;
+}
+
 p {
     padding: 0px;
     margin: 0px;
@@ -127,13 +131,46 @@ header {
 }
 
 /*
+    PARTNERS
+/////////////////////////////*/
+.partner{
+    margin-top: 23%;
+    /* border: 2px solid red; */
+}
+
+.partner-box{
+    /* border: 2px solid orange; */
+    width: 176px;
+    height: 112px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 12px;
+}
+
+.partner-text-kaspersky{
+    font: normal normal bold 16px/29px Nunito;
+    letter-spacing: 0px;
+    color: #57CABC;
+}
+
+.partner-text-pimec{
+    font: normal normal bold 22px/26px Nunito;
+    letter-spacing: 0px;
+    color: #494E6A;
+}
+
+.partner-text-upc{
+    font: normal normal bold 26px/26px Nunito;
+    letter-spacing: 0px;
+    color: #3C7FAF;
+}
+
+/*
  FOTER
 /////////////////////////*/
 
 .footer {
-    /* background-color: aliceblue; */
-    /* height: 300px; */
-    /* border: 2px solid red; */
+    /* border: 1px solid grey; */
     max-width: 95%;
 }
 
@@ -165,6 +202,24 @@ header {
     font: normal normal normal 19px/29px Nunito;
     letter-spacing: 0px;
     color: #000f14;
+}
+
+.footer-bottom-grail{
+    font: normal normal normal 22px/20px Times New Roman;
+    letter-spacing: 7.7px;
+}
+
+.footer-bottom-copyright{
+    font: normal normal normal 14px/20px Nunito;
+    letter-spacing: 1.74px;
+    color: #000F14;
+}
+
+.footer-bottom-text{
+    text-align: right;
+    font: normal normal normal 28px/38px Times New Roman;
+    letter-spacing: 2.8px;
+    color: #D9D9D9;
 }
 
 @media screen and (max-width: 600px) {
