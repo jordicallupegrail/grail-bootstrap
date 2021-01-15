@@ -133,8 +133,19 @@ header {
 /*
     PARTNERS
 /////////////////////////////*/
+.partner-title{
+    font: normal normal normal 40px/50px Times New Roman;
+    letter-spacing: 0px;
+    color: #000F14;
+}
+
+.partner-text{
+    font: normal normal normal 16px/26px Nunito;
+    letter-spacing: 0px;
+    color: #000F14;
+}
 .partner{
-    margin-top: 23%;
+    /* margin-top: 23%; */
     /* border: 2px solid red; */
 }
 
