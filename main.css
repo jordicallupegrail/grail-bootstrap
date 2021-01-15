@@ -3,10 +3,59 @@ p {
     margin: 0px;
 }
 
+h1 {
+}
+
+h2 {
+    text-align: center;
+    font: normal normal normal 40px/50px Times New Roman !important;
+    letter-spacing: 0px;
+    color: #000f14;
+}
+
+h3 {
+    text-align: center;
+    font: normal normal normal 13px/13px Nunito !important;
+    letter-spacing: 1.3px;
+    color: #000000;
+}
+
+h4 {
+    text-align: left;
+    font: normal normal normal 18px/24px Nunito !important;
+    letter-spacing: 0px;
+    color: #000f14;
+}
+
 /*
     HEADER ***********************************************
 */
 
+header {
+    font: normal normal normal 13px/13px Nunito !important;
+    letter-spacing: 0px;
+    color: #000000;
+    background-color: white;
+}
+
+.header-title {
+    margin-top: 21px;
+    font: normal normal normal 25px/28px Times New Roman !important;
+    letter-spacing: 11.25px;
+    color: #000f14;
+    text-align: center;
+}
+
+.header-subtitle {
+    font: normal normal normal 14px/19px Nunito !important;
+    letter-spacing: 0px;
+    color: #000f14;
+    text-align: center;
+}
+
+/*
+    SLIDER ***********************************************
+*/
 #img1 {
     background-image: url("assets/img/jpg/cover-1.jpg");
     /* Full height */
@@ -68,6 +117,13 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/*
+    PRODUCTS AND SOLUTIONS
+*/
+.productssolutions-text {
+    text-align: center;
 }
 
 /*
