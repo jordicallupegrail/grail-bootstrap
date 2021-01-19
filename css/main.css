@@ -1,13 +1,11 @@
 body{
-    background-color: #FCFBF9;
+    background-color: #FCFBF9 !important;
 }
 
-p {
-    padding: 0px;
-    margin: 0px;
-}
-
-h1 {
+h1{
+    font: normal normal normal 50px/60px Times New Roman;
+    letter-spacing: 0px;
+    color: #000F14;
 }
 
 h2 {
@@ -61,7 +59,7 @@ header {
     SLIDER ***********************************************
 */
 #img1 {
-    background-image: url("assets/img/jpg/cover-1.jpg");
+    background-image: url("../assets/img/jpg/cover-1.jpg");
     /* Full height */
     height: 100%;
 
@@ -72,7 +70,7 @@ header {
 }
 
 #img2 {
-    background-image: url("assets/img/jpg/cover-2.jpg");
+    background-image: url("../assets/img/jpg/cover-2.jpg");
     /* Full height */
     height: 100%;
 
@@ -83,7 +81,7 @@ header {
 }
 
 #img3 {
-    background-image: url("assets/img/jpg/cover-3.jpg"); /* Full height */
+    background-image: url("../assets/img/jpg/cover-3.jpg"); /* Full height */
     height: 100%;
 
     /* Center and scale the image nicely */
@@ -93,7 +91,7 @@ header {
 }
 
 #img4 {
-    background-image: url("assets/img/jpg/cover-4.jpg");
+    background-image: url("../assets/img/jpg/cover-4.jpg");
     /* Full height */
     height: 100%;
 
@@ -103,7 +101,7 @@ header {
     background-size: cover;
 }
 #img5 {
-    background-image: url("assets/img/jpg/cover-5.jpg");
+    background-image: url("../assets/img/jpg/cover-5.jpg");
     /* Full height */
     height: 100%;
 
@@ -113,7 +111,7 @@ header {
     background-size: cover;
 }
 #img6 {
-    background-image: url("assets/img/jpg/cover-6.jpg");
+    background-image: url("../assets/img/jpg/cover-6.jpg");
     /* Full height */
     height: 100%;
 
