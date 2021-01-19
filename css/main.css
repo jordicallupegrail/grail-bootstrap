@@ -1,13 +1,8 @@
-/* bodys { */
-/* background-color: #FCFBF9; */
-/* } */
+body{
+    background-color: #FCFBF9 !important;
+}
 
-/* p {
-    padding: 0px;
-    margin: 0px;
-} */
-
-h1 {
+h1{
     font: normal normal normal 50px/60px Times New Roman !important;
     letter-spacing: 0px;
     color: #000F14;
@@ -89,7 +84,7 @@ h5 {
 
 
 #img1 {
-    background-image: url("assets/img/jpg/cover-1.jpg");
+    background-image: url("../assets/img/jpg/cover-1.jpg");
     /* Full height */
     height: 100%;
 
@@ -100,7 +95,7 @@ h5 {
 }
 
 #img2 {
-    background-image: url("assets/img/jpg/cover-2.jpg");
+    background-image: url("../assets/img/jpg/cover-2.jpg");
     /* Full height */
     height: 100%;
 
@@ -111,7 +106,7 @@ h5 {
 }
 
 #img3 {
-    background-image: url("assets/img/jpg/cover-3.jpg");
+    background-image: url("../assets/img/jpg/cover-3.jpg");
     /* Full height */
     height: 100%;
 
@@ -122,7 +117,7 @@ h5 {
 }
 
 #img4 {
-    background-image: url("assets/img/jpg/cover-4.jpg");
+    background-image: url("../assets/img/jpg/cover-4.jpg");
     /* Full height */
     height: 100%;
 
@@ -133,7 +128,7 @@ h5 {
 }
 
 #img5 {
-    background-image: url("assets/img/jpg/cover-5.jpg");
+    background-image: url("../assets/img/jpg/cover-5.jpg");
     /* Full height */
     height: 100%;
 
@@ -144,7 +139,7 @@ h5 {
 }
 
 #img6 {
-    background-image: url("assets/img/jpg/cover-6.jpg");
+    background-image: url("../assets/img/jpg/cover-6.jpg");
     /* Full height */
     height: 100%;
 
