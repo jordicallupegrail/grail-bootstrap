@@ -1,65 +1,93 @@
-body{
-    background-color: #FCFBF9;
-}
+/* bodys { */
+/* background-color: #FCFBF9; */
+/* } */
 
-p {
+/* p {
     padding: 0px;
     margin: 0px;
-}
+} */
 
 h1 {
+    font: normal normal normal 50px/60px Times New Roman !important;
+    letter-spacing: 0px;
+    color: #000F14;
 }
 
 h2 {
-    text-align: center;
+    /* text-align: center; */
     font: normal normal normal 40px/50px Times New Roman !important;
     letter-spacing: 0px;
-    color: #000f14;
+    /* color: #000f14; */
 }
 
 h3 {
-    text-align: center;
+    /* text-align: center; */
     font: normal normal normal 13px/13px Nunito !important;
     letter-spacing: 1.3px;
     color: #000000;
 }
 
 h4 {
-    text-align: left;
+    /* text-align: left; */
     font: normal normal normal 18px/24px Nunito !important;
     letter-spacing: 0px;
     color: #000f14;
 }
 
-/*
-    HEADER ***********************************************
-*/
-
-header {
-    font: normal normal normal 13px/13px Nunito !important;
+h5 {
+    /* text-align: center; */
+    font: normal normal normal 10px/14px Nunito;
     letter-spacing: 0px;
-    color: #000000;
+}
+
+.text-description {
+    font: normal normal normal 16px/26px Nunito;
+    letter-spacing: 0px;
+    color: #000F14;
+}
+
+
+/* HEADER */
+
+/* header {
     background-color: white;
+} */
+
+.header-logo {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    color: #000f14;
 }
 
 .header-title {
-    margin-top: 21px;
+    /* margin-top: 21px; */
     font: normal normal normal 25px/28px Times New Roman !important;
     letter-spacing: 11.25px;
-    color: #000f14;
-    text-align: center;
+    /* color: #000f14; */
 }
 
 .header-subtitle {
     font: normal normal normal 14px/19px Nunito !important;
     letter-spacing: 0px;
-    color: #000f14;
-    text-align: center;
+    /* color: #000f14; */
+    /* text-align: center; */
 }
 
-/*
-    SLIDER ***********************************************
-*/
+.nav-link {
+    font: normal normal normal 13px/13px Nunito !important;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+/* SLIDER / HERO */
+
+.hero-text {
+    margin-bottom: 28px;
+    margin-top: 35px;
+}
+
+
 #img1 {
     background-image: url("assets/img/jpg/cover-1.jpg");
     /* Full height */
@@ -83,7 +111,8 @@ header {
 }
 
 #img3 {
-    background-image: url("assets/img/jpg/cover-3.jpg"); /* Full height */
+    background-image: url("assets/img/jpg/cover-3.jpg");
+    /* Full height */
     height: 100%;
 
     /* Center and scale the image nicely */
@@ -102,6 +131,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 #img5 {
     background-image: url("assets/img/jpg/cover-5.jpg");
     /* Full height */
@@ -112,6 +142,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 #img6 {
     background-image: url("assets/img/jpg/cover-6.jpg");
     /* Full height */
@@ -126,30 +157,38 @@ header {
 /*
     PRODUCTS AND SOLUTIONS
 */
+.productssolutions-card {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 16px;
+}
+
 .productssolutions-text {
     text-align: center;
+    max-width: 424px;
 }
 
 /*
     PARTNERS
 /////////////////////////////*/
-.partner-title{
+/* .partner-title {
     font: normal normal normal 40px/50px Times New Roman;
     letter-spacing: 0px;
     color: #000F14;
 }
 
-.partner-text{
+.partner-text {
     font: normal normal normal 16px/26px Nunito;
     letter-spacing: 0px;
     color: #000F14;
-}
-.partner{
-    /* margin-top: 23%; */
-    /* border: 2px solid red; */
-}
+} */
 
-.partner-box{
+/* .partner { 
+    margin-top: 23%; 
+    border: 2px solid red; 
+} */
+
+.partner-box {
     /* border: 2px solid orange; */
     width: 176px;
     height: 112px;
@@ -158,19 +197,19 @@ header {
     border-radius: 12px;
 }
 
-.partner-text-kaspersky{
+.partner-text-kaspersky {
     font: normal normal bold 16px/29px Nunito;
     letter-spacing: 0px;
     color: #57CABC;
 }
 
-.partner-text-pimec{
+.partner-text-pimec {
     font: normal normal bold 22px/26px Nunito;
     letter-spacing: 0px;
     color: #494E6A;
 }
 
-.partner-text-upc{
+.partner-text-upc {
     font: normal normal bold 26px/26px Nunito;
     letter-spacing: 0px;
     color: #3C7FAF;
@@ -191,6 +230,7 @@ header {
     font: normal normal normal 14px/14px Nunito;
     letter-spacing: 1.4px;
 }
+
 .footer-ul {
     font: normal normal normal 14px/22px Nunito;
     letter-spacing: 0px;
@@ -215,18 +255,18 @@ header {
     color: #000f14;
 }
 
-.footer-bottom-grail{
+.footer-bottom-grail {
     font: normal normal normal 22px/20px Times New Roman;
     letter-spacing: 7.7px;
 }
 
-.footer-bottom-copyright{
+.footer-bottom-copyright {
     font: normal normal normal 14px/20px Nunito;
     letter-spacing: 1.74px;
     color: #000F14;
 }
 
-.footer-bottom-text{
+.footer-bottom-text {
     text-align: right;
     font: normal normal normal 28px/38px Times New Roman;
     letter-spacing: 2.8px;
@@ -238,6 +278,7 @@ header {
         display: none;
     }
 }
+
 .linkFooter:visited {
     color: black;
 }
