@@ -1,0 +1,31 @@
+{
+  "name": "grail-bootstrap",
+  "version": "1.0.0",
+  "description": "Package de grail-bootstrap",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordicallupegrail/grail-bootstrap.git"
+  },
+  "keywords": [
+    "grail",
+    "bootstrap"
+  ],
+  "author": "Pablo Gómez, Jordi Gorbe, Jordi Callupe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordicallupegrail/grail-bootstrap/issues"
+  },
+  "homepage": "https://github.com/jordicallupegrail/grail-bootstrap#readme",
+  "devDependencies": {
+    "@popperjs/core": "^2.6.0",
+    "gulp": "^4.0.2",
+    "jquery": "^3.5.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}
