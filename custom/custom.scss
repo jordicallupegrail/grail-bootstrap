@@ -1,0 +1,15 @@
+$theme-colors: (
+    "primary": red
+);
+
+$red : blue;
+
+$h1Grandote: 500px;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+h1{
+    color: $red;
+    font-size: $h1Grandote;
+}

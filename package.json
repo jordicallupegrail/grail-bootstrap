@@ -1,0 +1,22 @@
+{
+  "name": "grailtech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordicallupegrail/grail-bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordicallupegrail/grail-bootstrap/issues"
+  },
+  "homepage": "https://github.com/jordicallupegrail/grail-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}
